@@ -1,0 +1,29 @@
+# Binary builds (The compiled tool)
+auth-token-analyzer
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Playwright Browser Binaries
+# (We don't commit these; the user runs the install command instead)
+bin/
+dist/
+
+# Dependency folders
+# (Go uses go.mod/go.sum, so we don't need a 'vendor' folder)
+vendor/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test coverage files
+*.out
